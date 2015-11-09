@@ -1,0 +1,352 @@
+
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+@import url(https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy);
+}
+
+.raya{
+    border-bottom: 1px solid black;
+    width: 50px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px; 
+}
+.description{
+   background-color: rgb(247, 237, 246);
+}
+.text-white{
+    color: white;
+    margin-top: 10%;
+}
+
+.web{
+    color: black;
+    font-size: 30px;
+   /* background-image: url("../img/acuarela/github.png");*/
+    padding: 0px;
+    right: 35%;
+    margin-bottom: 41px;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: rgb(156, 225, 208);
+    border-radius: 10px;
+}
+
+section {
+   
+    position: relative;
+    width: 100% !important;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+ #story-freext{
+    background:whitesmoke;
+    height:800px;
+}
+section:nth-of-type(2){background:skype-blue;height:500px;}
+
+#story-freext>div:nth-of-type(1) {
+    background: url(../img/acuarela/4.png) -25% 0 no-repeat fixed;
+    margin: 0;
+    height: 1600px;
+    position:absolute;
+    width:100%;
+    top:0;left:0;
+}
+
+#story-freext>div:nth-of-type(2) {
+    background: url(../img/acuarela/1.png) 50% 0 no-repeat fixed;
+    margin: 0;
+    height: 1600px;
+    position:absolute;
+    top:0px;left:100px;
+    width:100%;
+    background-position: 122% -82px;
+    transform: translateZ(-1px) scale(1);
+}
+#story-freext>div:nth-of-type(3) {
+    background: url(../img/acuarela/2.png) -28% 445px no-repeat fixed;
+    margin: 0;
+    height: 1600px;
+    position:absolute;
+    top:0px;left:0px;
+    width:100%;
+}
+#story-freext>div:nth-of-type(4) {
+    background: url(../img/acuarela/5.png) 50% 0 no-repeat fixed;
+    margin: 0;
+    height: 1600px;
+    position:absolute;
+    top:0px;left:100px;
+    width:100%;
+    background-position: 122% 127px;
+ 
+}
+.parallax-item{position:absolute;z-index:5;top:40px;left:400px;}
+.section-one {
+  height: 500px;
+  background: url(https://unsplash.it/2508/1672?image=656) no-repeat 50% 50%;
+  background-size: cover;
+  position: ;
+}
+.pd-5{
+    padding: 5%;
+}
+.compu{
+    margin: auto;
+    padding: 5%;
+    height: 333px;
+}
+.chart {
+  position: relative;
+  display: inline-block;
+  margin: 20px 10px;
+  color: #999;
+  font-size: 14px;
+  text-align: center;
+}
+.chart canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.frase{
+    background-image: url("../img/acuarela/fondo-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 106%;
+    height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+}
+.logo-cafi{
+    left: 33%;
+    position: absolute;
+    top: 7%;
+    width: 41%;
+}
+.navbar-default {
+    background-color: rgb(156, 225, 208);
+    border-color: transparent;
+}
+.skills{
+    background-color: rgb(156, 225, 208);
+
+
+}
+ #portfolio{
+        background-color: rgb(247, 237, 246);
+}
+.carousel-control.left {
+    background-image: none;
+}
+.carousel-control.right {
+    background-image:none;
+}
+.carousel-indicators {
+    top:97%;
+}
+.i-f{
+    background-image: url("../img/acuarela/facebook-acuarela.png");
+    width: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50px;
+}
+.fa-facebook:before {
+    content: "\f09a";
+    color: white;
+    font-size: 33px;
+    padding-top: -3px;
+    text-align: center;
+    display: block;
+    padding-top: 9px;
+}
+.i-t{
+    background-image: url("../img/acuarela/twitter.png");
+    width: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50px;
+}
+.fa-twitter:before {
+    content: "\f099";
+    font-size: 32px;
+    color: white;
+    padding-top: -3px;
+    text-align: center;
+    display: block;
+    padding-top: 9px;
+}
+.i-g{
+    background-image: url("../img/acuarela/github.png");
+    width: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50px;
+}
+.fa-github-alt:before {
+    content: "\f113";
+    font-size: 32px;
+    color: white;
+    padding-top: -3px;
+    text-align: center;
+    display: block;
+    padding-top: 9px;
+}
+.i-l{
+    background-image: url("../img/acuarela/in.png");
+    width: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50px;
+}
+.fa-linkedin:before {
+    content: "\f0e1";
+    font-size: 32px;
+    color: white;
+    padding-top: -3px;
+    text-align: center;
+    display: block;
+    padding-top: 9px;
+}
+
+}
+.plantilla{
+    width: 80%;
+    margin-left: 10%;
+}
+.carousel-caption {
+    position: relative;
+    left: 0%;
+    right: 15%;
+    bottom: 20px;
+    z-index: 10;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+    /* margin-top: 103%; */
+}
+.proyecto{
+    border: 1px solid white;
+    padding: 10px;
+    margin-top: 21px;
+    text-decoration: none;
+    background: #bce8f1;
+    color: gray;
+    display: block;
+    width: 107px;
+    margin: auto;
+}
+.ico-comunicacion{
+    padding: 10px;
+}
+.ico-web{
+    padding: 20px;
+}
+
+.raya{
+    border-bottom: 3px solid rgba(148, 94, 148, 0.52);
+    width: 100px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.pd-3{
+    padding-top: 0px;
+    padding: 1% 5% 10% 5%;
+}
+h1,h4{
+    font-family: Cabin Sketch;
+    color: rgba(95, 29, 95, 0.76);
+}
+h2,h3{
+ font-family: Cabin Sketch;
+ color: rgba(95, 29, 95, 0.76);
+}
+p{
+    font-family: ABeeZee;
+ color: rgba(95, 29, 95, 0.76);
+ font-size: 15px;
+}
+#service{
+    
+}
+.about{
+    background: rgb(247, 237, 246);
+
+}
+.orna{
+    border-top: 3px solid rgba(148, 94, 148, 0.52);
+    width: 250px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+.fa-heart-o:before {
+    content: "\f08a";
+    background: #F7EDF6;
+    font-size: 38px;
+    top: 54%;
+    color: gray;
+    position: absolute;
+    margin: auto;
+    display: block;
+    left: 48%;
+    padding: 5px;
+
+}
+
+.fa-rocket:before {
+    content: "\f135";
+    background: white;
+    position: absolute;
+    top: 40%;
+    font-size: 24px;
+    padding: 5px;
+    color: gray;
+}
+.fixed{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1000;
+}
+#banner{
+    background-image: url("../img/banner.jpg");
+    background-image: url("../img/banner.jpg");
+    background-size: cover;
+    background-position: center;
+}
+a{
+    font-family: Cabin Sketch;
+    color: rgba(95, 29, 95, 0.76);
+}
+.fa-star-half-empty:before, .fa-star-half-full:before, .fa-star-half-o:before {
+    content: "\f123";
+    font-size: 28px;
+    color: gray;
+    top: -5px;
+    position: absolute;
+    top: 43%;
+    font-size: 28px;
+    padding: 5px;
+    color: gray;
+    background-color: #9CE1D0;
+}
+.pd-3{
+    padding: 3%;
+}
+.pd-p{
+    padding: 3% 15%;
+}
+.span-text{
+    color: #E846E6;
+}
+.carousel-caption {
+    text-shadow: none; 
+    }
